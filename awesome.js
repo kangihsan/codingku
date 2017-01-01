@@ -1,0 +1,2 @@
+function loadCSS(a,b,c){"use strict";var d=window.document.createElement("link"),e=b||window.document.getElementsByTagName("script")[0];d.rel="stylesheet",d.href=a,d.media="only x",e.parentNode.insertBefore(d,e),setTimeout(function(){d.media=c||"all"})}loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+if (typeof(jQuery) == 'undefined') {document.write("<scr" + "ipt type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></scr" + "ipt>");}
